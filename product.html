@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-commerce</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/products.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" width="150px" />
+      </div>
+      <nav class="nav__bar">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="products.html">products</a></li>
+          <li><a href="#">about us</a></li>
+          <li><a href="#contact__us">contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container products__container">
+      <h3>Single Product</h3>
+      <div class="product__container">
+        <div class="img__con__product">
+          <img alt="product" src="img/products/1.jpg" />
+        </div>
+        <div class="product__info">
+          <h4>Single product Name</h4>
+          <h4 class="blue" id="price">15.00</h4>
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            nisi ducimus autem doloribus, officiis, ad perspiciatis eum eveniet
+            provident ipsa odio, ratione iste reiciendis? Culpa quod pariatur
+            saepe sit blanditiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            nisi ducimus autem doloribus, officiis, ad perspiciatis eum eveniet
+            provident ipsa odio, ratione iste reiciendis? Culpa quod pariatur
+            saepe sit blanditiis.
+          </p>
+
+          <h4 class="blue">total : <span id="total__price" class=" big"> 15</span>$</h4>
+          <label for="count">Quantity</label>
+          <input type="number" min="1" name="mount" id="mount" value="1" />
+          <button>Order Now</button>
+          <div class="cat">
+              <p>Category <span class="gray">Paints woman Lifestyle</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container products__container">
+        <h3>You May Also Like</h3>
+        <div class="products__group">
+          <div class="product__item">
+            <div class="img__container">
+              <a href="product.html"
+                ><img src="img/products/1.jpg" alt="product"
+              /></a>
+            </div>
+            <h5>Prion vel ligula</h5>
+            <h5 class="price">$15.00</h5>
+          </div>
+  
+          <div class="product__item">
+            <div class="img__container">
+              <a href="product.html"
+                ><img src="img/products/1.jpg" alt="product"
+              /></a>
+            </div>
+            <h5>Prion vel ligula</h5>
+            <h5 class="price">$15.00</h5>
+          </div>
+  
+          <div class="product__item">
+            <div class="img__container">
+              <a href="product.html"
+                ><img src="img/products/1.jpg" alt="product"
+              /></a>
+            </div>
+            <h5>Prion vel ligula</h5>
+            <h5 class="price">$15.00</h5>
+          </div>
+  
+          <div class="product__item">
+            <div class="img__container">
+              <a href="product.html"
+                ><img src="img/products/1.jpg" alt="product"
+              /></a>
+            </div>
+            <h5>Prion vel ligula</h5>
+            <h5 class="price">$15.00</h5>
+          </div>
+        </div>
+      </section>
+
+    <section class="contact__us" id="contact__us">
+        <h3>Subscribe on website now!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum tempora
+          incidunt quae iusto quas autem numquam quod modi unde debitis
+          necessitatibus consectetur
+        </p>
+  
+        <form>
+          <input type="text" placeholder="Your Email ..." />
+          <button>SUBSCRIBE NOW</button>
+        </form>
+      </section>
+  
+      <footer>
+        <div class="logo">
+          <img src="img/logo.png" width="150px" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">help</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">home its works?</a></li>
+            <li><a href="#contact__us">contact us</a></li>
+          </ul>
+        </nav>
+        <div class="copy"><span>COPYRIGHT &COPY; 2020 DISNEY</span></div>
+      </footer>
+
+    <script src="js/logic.js"></script>
+    <script src="js/dom.js"></script>
+  </body>
+</html>
