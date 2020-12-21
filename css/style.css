@@ -52,6 +52,7 @@
 .products__container .product__item img{
     width: 100%;
     object-fit: cover;
+    height: 300px;
 }
 .price{
     color: rgb(93, 132, 216);
